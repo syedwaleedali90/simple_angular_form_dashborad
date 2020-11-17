@@ -1,0 +1,461 @@
+header {
+    width: 100%;
+  
+    .logo-box {
+      padding: 8px 18px;
+  
+      img {
+        width: 120px;
+      }
+    }
+  }
+  
+  .main-home-wrapper {
+  
+    // border: 1px solid black;
+    // height: 99vh;
+    .side-bar {
+      // border-right: 1px solid black;
+      width: 25%;
+      float: left;
+  
+      // height: 100vh;
+      .cate-box {
+          padding: 0px 10px;
+      padding-left: 15px;
+  
+        p {
+          margin: 0;
+          font-family: 'Poppins', sans-serif;
+  
+          img {
+            float: left;
+            margin-top: 1px;
+            margin-right: 6px;
+            width: 20px;
+          }
+        }
+      }
+  
+      .cate2-box {
+          padding: 0px 10px;
+      padding-left: 15px;
+  position: relative;
+        p {
+          margin: 0;
+          font-family: 'Poppins', sans-serif;
+  
+          img {
+            float: left;
+            margin-top: 1px;
+            margin-right: 6px;
+            width: 20px;
+          }
+        }
+        &::after{
+          position: absolute;
+          content: "";
+          height: 167px;
+          width: 1px;
+          background-image: url("src/assets/img/arrow-d.png");
+          position: absolute;
+          content: "";
+          height: 167px;
+          width: 85px;
+          background-size: 7px 21px;
+          background-repeat: no-repeat;
+          /* bottom: -151px; */
+          left: 21px;
+          top: 21px;
+        }
+      }
+  
+      .subcat-list {
+        list-style-type: none;
+        position: relative;
+  
+        li {
+          margin-bottom: 10px;
+          position: relative;
+  
+          a {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+  
+            i {
+              color: #417aff;
+              margin-right: 5px;
+              font-size: 23px;
+            }
+  
+            span {
+              color: black;
+            }
+          }
+  
+          &::before {
+            position: absolute;
+            content: "";
+            height: 1px;
+            width: 15px;
+            background: #918f8f;
+            top: 11px;
+            left: -15px;
+          }
+        }
+  
+        &::before {
+          position: absolute;
+          content: "";
+          height: 167px;
+          width: 1px;
+          background: #918f8f;
+          top: 11px;
+          left: 24px;
+        }
+        &::after{
+          position: absolute;
+          content: "";
+          height: 167px;
+          width: 1px;
+          background-image: url("src/assets/img/arrow-d.png");
+          position: absolute;
+          content: "";
+          height: 167px;
+          width: 85px;
+          // background-image: url(arrow-d.png);
+          /* top: 11px; */
+          /* left: 24px; */
+          background-size: 7px 26px;
+          background-repeat: no-repeat;
+          bottom: -151px;
+          left: 21px;
+        }
+      }
+      .subcat2-list {
+          list-style-type: none;
+          position: relative;
+          margin: 0;
+          padding-left: 38px;
+          li {
+            margin-bottom: 10px;
+            position: relative;
+    
+            a {
+              text-decoration: none;
+              font-family: 'Poppins', sans-serif;
+    
+              i {
+                color: #417aff;
+                margin-right: 5px;
+                font-size: 23px;
+              }
+    
+              span {
+                color: black;
+              }
+            }
+    
+            &::before {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 15px;
+              background: #918f8f;
+              top: 11px;
+              left: -15px;
+            }
+          }
+    
+          &::before {
+            position: absolute;
+            content: "";
+            height: 93px;
+            width: 1px;
+            background: #918f8f;
+            top: 11px;
+            left: 23px;
+          }
+          &::after{
+              position: absolute;
+              content: "";
+              height: 167px;
+              width: 1px;
+              background-image: url("src/assets/img/arrow-u.png");
+              position: absolute;
+              content: "";
+              height: 167px;
+              width: 85px;
+              // background-image: url(arrow-d.png);
+              /* top: 11px; */
+              /* left: 24px; */
+              background-size: 7px 26px;
+              background-repeat: no-repeat;
+              bottom: 0;
+              left: 20px;
+              top: -15px;
+            }
+        }
+      .triangle-box {
+          padding: 16px 10px;
+          padding-left: 14px;
+          padding-top: 16px;
+        p {
+          margin: 0;
+          font-family: 'Poppins', sans-serif;
+  
+          img {
+            float: left;
+            margin-top: 5px;
+            margin-right: 6px;
+          }
+  
+          span {
+            font-size: 12px;
+            font-weight: 300;
+          }
+        }
+      }
+  
+      @media only screen and (max-width: 991px) {
+  
+        .cate-box {
+          p {
+            font-size: 10px;
+  
+            img {
+              width: 15px;
+              margin-top: 0;
+            }
+          }
+        }
+  
+        .cate2-box {
+          padding-left: 17px;
+          p {
+            font-size: 10px;
+  
+            img {
+              width: 15px;
+              margin-top: 0;
+            }
+          }
+  
+        }
+  
+  
+        .triangle-box {
+          padding: 19px 10px;
+          padding-left: 14px;
+          padding-top: 25px;
+          p {
+            span {
+              font-size: 10px;
+            }
+          }
+        }
+  
+        .subcat-list {
+          margin-top: 0;
+  
+          li {
+            a {
+              font-size: 11px;
+  
+              i {
+                font-size: 19px;
+              }
+            }
+            &::before {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 15px;
+              background: #918f8f;
+              top: 9px;
+              left: -15px;
+            }
+          }
+          &::before {
+              position: absolute;
+              content: "";
+              height: 143px;
+              width: 1px;
+              background: #918f8f;
+              top: 9px;
+              left: 24px;
+            }
+        }
+        .subcat2-list {
+          margin-top: 0;
+  
+          li {
+            a {
+              font-size: 11px;
+  
+              i {
+                font-size: 19px;
+              }
+            }
+            &::before {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 15px;
+              background: #918f8f;
+              top: 9px;
+              left: -15px;
+            }
+          }
+          &::before {
+              position: absolute;
+              content: "";
+              height: 81px;
+              width: 1px;
+              background: #918f8f;
+              top: 9px;
+              left: 23px
+            }
+        }
+      }
+  
+      @media only screen and (max-width: 768px) {
+        width: 35%;
+      }
+  
+      @media only screen and (max-width: 519px) {
+          width: 50%;
+        .cate-box {
+          p {
+            font-size: 8px;
+  
+            img {
+              width: 15px;
+              margin-top: -3px;
+            }
+          }
+        }
+  
+        .cate2-box {
+          p {
+            font-size: 8px;
+  
+            img {
+              width: 15px;
+              margin-top: -3px;
+            }
+          }
+        }
+  
+        .triangle-box {
+          padding: 19px 10px;
+          padding-left: 14px;
+          padding-top: 30px;
+          p {
+            span {
+              font-size: 8px;
+            }
+          }
+        }
+  
+        .subcat-list {
+          margin-top: 0;
+          // padding-left: 15px;
+  
+          li {
+            a {
+              font-size: 9px;
+  
+              i {
+                font-size: 15px;
+              }
+            }
+            &::before {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 15px;
+              background: #918f8f;
+              top: 9px;
+              left: -15px;
+            }
+          }
+          &::before {
+              position: absolute;
+              content: "";
+              height: 113px;
+              width: 1px;
+              background: #918f8f;
+              top: 9px;
+              left: 24px;
+            }
+        }
+        .subcat2-list {
+          margin-top: 0;
+          // padding-left: 15px;
+  
+          li {
+            a {
+              font-size: 9px;
+  
+              i {
+                font-size: 15px;
+              }
+            }
+            &::before {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 15px;
+              background: #918f8f;
+              top: 9px;
+              left: -15px;
+            }
+          }
+          &::before {
+              position: absolute;
+              content: "";
+              height: 57px;
+              width: 1px;
+              background: #918f8f;
+              top: 9px;
+              left: 23px
+            }
+        }
+      }
+    }
+  
+    .right-bar {
+      width: 74%;
+      float: left;
+  
+      // height: 100vh;
+      figure {
+        height: 500px;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+  
+      @media only screen and (max-width: 768px) {
+        width: 63%;
+  
+        figure {
+          height: 400px;
+        }
+      }
+      @media only screen and (max-width: 519px) {
+          width: 47%;
+          figure{
+              // height: 300px;
+          }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 519px) {
+    .hide-xs {
+      display: none;
+    }
+  }
+  

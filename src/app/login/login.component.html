@@ -1,0 +1,10 @@
+<div class="login-page">
+  <div class="form">
+
+    <form class="login-form" #f="ngForm">
+      <input type="text" placeholder="username" name="name" [(ngModel)]="User.userName"/>
+      <input type="password" placeholder="password" name="pass" [(ngModel)]="User.password"/>
+      <button type="submit" (click)="login()">Login</button>
+    </form>
+  </div>
+</div>
